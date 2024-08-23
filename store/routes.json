@@ -7,5 +7,13 @@
   },
   "store.custom#contact-us": {
     "path": "/contact-us"
+  },
+  "store.custom#store-locator": {
+    "title": "Find a Store",
+    "path": "/find-a-store"
+  },
+  "store.custom#store-locator-details": {
+    "title": "Find a Store Details",
+    "path": "/find-a-store/details/:id"
   }
 }

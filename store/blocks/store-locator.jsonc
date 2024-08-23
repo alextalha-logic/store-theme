@@ -1,0 +1,8 @@
+{
+  "store.custom#store-locator": {
+    "blocks": ["store-locator"]
+  },
+  "store.custom#store-locator-details": {
+    "blocks": ["store-locator-details"]
+  }
+}
