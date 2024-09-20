@@ -2,7 +2,7 @@ name: "Link IO App"
 on:
   push:
     branches:
-      - alex
+      - github-actions
 jobs:
   link:
     runs-on: ubuntu-latest
@@ -19,9 +19,9 @@ jobs:
           echo "$(yarn global bin)" >> $GITHUB_PATH
       - uses: vtex/action-toolbelt-login@v1
         with:
-          account: ${{ secrets.ACCOUNT }}
+          account: ronadev
           app-key: ${{ secrets.APP_KEY }}
           app-token: ${{ secrets.APP_TOKEN }}
       - run: |
-          echo "yes" | vtex use homolog
+          echo "yes" | vtex use actions
           vtex link --no-watch
