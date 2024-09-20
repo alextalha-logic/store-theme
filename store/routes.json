@@ -14,6 +14,6 @@
   },
   "store.custom#store-locator-details": {
     "title": "Find a Store Details",
-    "path": "/find-a-store/details/:id"
+    "path": "/find-a-store/details/:gelocateId/:storeId(/:pageId)"
   }
 }
